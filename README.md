@@ -8,4 +8,7 @@ A simple script using the DeDrm and DeAcsm plugins of calibre to turn a acsm fil
 4. If in your $PATH, just run `acsm-to-epub`, and select your file, if its in your home directory, run `sudo ./acsm-to-epub`
 5. From there on follow the on screen instructions, and report any errors in the issues section
 
-
+## Requirements:
+1. Calibre installed
+2. The DeDrm plugin for calibre installed
+3. The DeAcsm plugin for calibre installed
