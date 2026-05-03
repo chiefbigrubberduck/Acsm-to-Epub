@@ -1,7 +1,5 @@
 #!/bin/bash
 
-OUTPUT="DeDrmed"
-
 echo "Opening file selector..."
 
 ACSMFILE=$(zenity --file-selection --title="Select .acsm file" --file-filter="*.acsm")
