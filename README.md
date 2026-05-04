@@ -1,6 +1,8 @@
 # Acsm-to-Epub
 A simple script using the DeDrm and DeAcsm plugins of calibre to turn a acsm file into an epub. Uses the ebook-convert tool to integrate the acsm to epub process into the terminal.
 
+<img width="560" height="315" alt="acsm-to-epub-" src="https://github.com/user-attachments/assets/1b5be1f9-f978-460f-bba8-1bba4a52d38b" />
+
 ## How-to use:
 1. Download the script from the [releases](https://github.com/chiefbigrubberduck/Acsm-to-Epub/releases/tag/v0.1) page
 2. chmod the script, or just tag `Allow executing` in your file manager. To chmod, run this: `chmod +x acsm-to-epub.sh` NOTE: you must be in the same directory to chmod it.
@@ -17,3 +19,8 @@ A simple script using the DeDrm and DeAcsm plugins of calibre to turn a acsm fil
 
 ## Disclaimer
 These scripts are for educational purposes only. These scripts utilize preexisting free and open source software, all credit is due to the creators of the software. I am not responsible for how this software is used.
+
+## Credits:
+1. DeDrm toolkit: https://github.com/noDRM/DeDRM_tools
+2. Calibre ebook management platform: https://calibre-ebook.com/
+3. DeAcsm toolkit: https://github.com/Leseratte10/acsm-calibre-plugin
