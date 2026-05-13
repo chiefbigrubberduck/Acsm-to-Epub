@@ -5,6 +5,13 @@ A simple script using the DeDrm and DeAcsm plugins of calibre to turn a acsm fil
 
 
 ## How-to use:
+Note: The deb package comes with a GUI meanwhile the script is CLI only
+For installing the deb package:
+1. Download the deb from the releases page
+2. Then run `sudo apt install./(the name of the deb package, for example: acsm-to-epub-gui_0.2-1_amd64.deb)`
+3. To uninstall, just run `sudo apt remove acsm-to-epub-gui`
+
+For installing the script:
 1. Download the script from the [releases](https://github.com/chiefbigrubberduck/Acsm-to-Epub/releases/tag/v0.1) page
 2. chmod the script, or just tag `Allow executing` in your file manager. To chmod, run this: `chmod +x acsm-to-epub.sh` NOTE: you must be in the same directory to chmod it.
 3. Either run the script from your home directory, or add it to your `$PATH`, like this: `sudo cp ~/acsm-to-epub.sh /usr/local/bin/acsm-to-epub` and then `sudo chmod +x /usr/local/bin/acsm-to-epub` NOTE: to run the cp command, you have to be in the same directory as the script.
@@ -25,3 +32,4 @@ These scripts are for educational purposes only. These scripts utilize preexisti
 1. DeDrm toolkit: https://github.com/noDRM/DeDRM_tools
 2. Calibre ebook management platform: https://calibre-ebook.com/
 3. DeAcsm toolkit: https://github.com/Leseratte10/acsm-calibre-plugin
+4. Zenity: https://gitlab.gnome.org/GNOME/zenity
