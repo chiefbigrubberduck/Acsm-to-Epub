@@ -6,7 +6,8 @@ A simple script using the DeDrm and DeAcsm plugins of calibre to turn a acsm fil
 
 
 ## How-to use:
-Note: The deb package comes with a GUI meanwhile the script is CLI only
+Note: The deb package comes with a GUI meanwhile the script is CLI only.
+
 For installing the deb package:
 1. Download the deb from the releases page
 2. Then run `sudo apt install./(the name of the deb package, for example: acsm-to-epub-gui_0.2-1_amd64.deb)`
