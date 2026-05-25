@@ -30,7 +30,7 @@ After installing you can...
 ## Troubleshooting
 Common Issues:
 1. Users get an oscrypt error when installing the DeAcsm plugin in Calibre, this is an Openssl issue
-2. When running acsm-to-epub (CLI) you might get a permission denied error, fix this by running: sudo chmod 755 /usr/local/bin/acsm-to-epub
+2. When running acsm-to-epub (CLI) you might get a permission denied error, fix this by running: `sudo chmod 755 /usr/local/bin/acsm-to-epub`
 
 ## Requirements:
 1. Calibre installed
