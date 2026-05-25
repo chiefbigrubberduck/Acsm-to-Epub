@@ -5,7 +5,7 @@ A simple script using the DeDrm and DeAcsm plugins of calibre to turn a acsm fil
 
 
 
-## How-to use:
+## Installation:
 Note: The deb package comes with a GUI meanwhile the script is CLI only.
 
 For installing the deb package:
@@ -21,6 +21,16 @@ For installing the script:
 5. If in your `$PATH`, just run `acsm-to-epub`, and select your file, if its in your home directory, run `sudo ./acsm-to-epub`
 6. From there on select your .acsm file, and report any errors in the issues section
 7. You can delete the old script you downloaded, if you decided to put it in your `$PATH`
+
+## Usage
+After installing you can...
+1. Execute the GUI tool by searching acsm-to-epub (GUI) and selecting it, or typing acsm-to-epub-gui in the CLI
+2. Execute the CLI tool by simply typing acsm-to-epub in a Terminal.
+
+## Troubleshooting
+Common Issues:
+1. Users get an oscrypt error when installing the DeAcsm plugin in Calibre, this is an Openssl issue
+2. When running acsm-to-epub (CLI) you might get a permission denied error, fix this by running: sudo chmod 755 /usr/local/bin/acsm-to-epub
 
 ## Requirements:
 1. Calibre installed
