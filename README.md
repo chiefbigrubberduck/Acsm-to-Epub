@@ -24,8 +24,8 @@ For installing the script:
 
 ## Usage
 After installing you can...
-1. Execute the GUI tool by searching acsm-to-epub (GUI) and selecting it, or typing acsm-to-epub-gui in the CLI
-2. Execute the CLI tool by simply typing acsm-to-epub in a Terminal.
+1. Execute the GUI tool by searching `acsm-to-epub (GUI)` in your app launcher and selecting it, or typing `acsm-to-epub-gui` in the CLI
+2. Execute the CLI tool by simply typing `acsm-to-epub` in a Terminal.
 
 ## Troubleshooting
 Common Issues:
