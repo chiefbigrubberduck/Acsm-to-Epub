@@ -29,13 +29,14 @@ After installing you can...
 
 ## Troubleshooting
 Common Issues:
-1. Users get an oscrypt error when installing the DeAcsm plugin in Calibre, this is an Openssl issue
+1. Users get an oscrypt error when installing the DeAcsm plugin in Calibre, this is an Openssl issue, because of backwards compatibility, the DeAcsm plugin in calbire was written with OpenSSL 1 to 1.1, which means you need a backwards compatible version, the plugin is known to work with OpenSSL 3.5.6, which is backward compatible.
 2. When running acsm-to-epub (CLI) you might get a permission denied error, fix this by running: `sudo chmod 755 /usr/local/bin/acsm-to-epub`
 
 ## Requirements:
 1. Calibre installed
 2. The DeDrm plugin for calibre installed
 3. The DeAcsm plugin for calibre installed
+4. Zenity installed
 
 ## Disclaimer
 These scripts are for educational purposes only. These scripts utilize preexisting free and open source software, all credit is due to the creators of the software. I am not responsible for how this software is used.
